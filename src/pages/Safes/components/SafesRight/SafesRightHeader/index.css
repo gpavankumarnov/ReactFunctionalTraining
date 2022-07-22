@@ -1,0 +1,48 @@
+.content__right-header {
+  height: 10rem;
+}
+
+.contentRight_Text {
+  font-size: 1rem;
+}
+
+.banner_Image {
+  height: 100%;
+  background-image: url("./images/Banner_img.svg");
+  background-size: cover;
+}
+
+.sectionRightBannerImage {
+  width: 100%;
+}
+
+h2 {
+  color: white;
+}
+
+p.contentRight_Text {
+  padding: 0.9375rem 0.9375rem 0.9375rem 0rem;
+}
+
+.sectionRight__Content {
+  padding: 3rem 0 0 15rem;
+  height: 100%;
+}
+
+.contentRight_Text {
+  color: white;
+}
+
+.text-content {
+  height: 100%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 640px) {
+  .text-content {
+    font-size: 0.625rem;
+  }
+
+  .contentRight_Text {
+    font-size: 0.625rem;
+  }
+}

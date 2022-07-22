@@ -1,0 +1,40 @@
+.secretList__data {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.625rem;
+  height: 25%;
+  align-items: flex-start;
+}
+
+.secret__cards-data:hover {
+  background: linear-gradient(to top, #72134b, #1d212c);
+}
+
+.secret__cards-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.secret__cards-data > div {
+  padding: 1rem;
+}
+
+.secretList__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secretFolderIcon,
+.card__Name {
+  padding: 0.3125rem;
+  color: #d0d0d0;
+  font-size: 1rem;
+}
+
+.new-Text {
+  color: #33ab78;
+  font-size: 0.75rem;
+  padding: 0.3125rem;
+}
